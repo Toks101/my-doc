@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>implenting a css file</title>
+    <!--adding a style tag to the head of the docunment-->
+   <!-- internal CSS Approach
+    this Approach is a huge no-no!
+    why
+    beacause as more CSS properties are added,the file increase in size and and it hard to read, hard to scale and hard to share -->
+    <style>
+          h1 {
+            color: red;
+          }
+    </style>
+    <!--Linking an external document with css propertise-->
+    <!--rel= relationship-->
+    <!-- href= hypertext reference -->
+    <!-- ALWAY GO FOR THIS APPROACH -->
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body> 
+    <h1>Hello world</h1>
+    
+</body>
+</html>
